@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace PrimeiroProjeto.Aula22
 {
@@ -22,7 +23,17 @@ namespace PrimeiroProjeto.Aula22
     {
         static void Main(string[] args)
         {
+            int distancia, tempo, velocidade;
+            double litros;
 
+            tempo = int.Parse(Console.ReadLine());
+            velocidade = int.Parse(Console.ReadLine());
+
+            distancia = tempo * velocidade;
+
+            litros = distancia / 12.0;
+
+            Console.WriteLine($"{litros.ToString("F3", CultureInfo.InvariantCulture)}");
         }
     }
 }
