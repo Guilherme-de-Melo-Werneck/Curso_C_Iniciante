@@ -1,25 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
+﻿//Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
 
-namespace PrimeiroProjeto.Aula22
-{
-    internal class exemplo10
-    {
-        static void Main(string[] args)
-        {
-            int x;
-            double y, kml;
+//Entrada
+//O arquivo de entrada contém dois valores: um valor inteiro X representando a distância total percorrida (em Km), e um valor real Y
+//representando o total de combustível gasto, com um dígito após o ponto decimal.
 
-            x = int.Parse(Console.ReadLine());
-            y = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+//Saída
+//Apresente o valor que representa o consumo médio do automóvel com 3 casas após a vírgula, seguido da mensagem "km/l".
 
-            kml = (double) x / y;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using System.Globalization;
 
-            Console.WriteLine($"{kml.ToString("f3", CultureInfo.InvariantCulture)} km/l");
-        }
-    }
-}
+//namespace PrimeiroProjeto.Aula22
+//{
+//    internal class exemplo10
+//    {
+//        static void Main(string[] args)
+//        {
+//            int x;
+//            double y, kml;
+
+//            x = int.Parse(Console.ReadLine());
+//            y = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+
+//            kml = (double) x / y;
+
+//            Console.WriteLine($"{kml.ToString("f3", CultureInfo.InvariantCulture)} km/l");
+//        }
+//    }
+//}
