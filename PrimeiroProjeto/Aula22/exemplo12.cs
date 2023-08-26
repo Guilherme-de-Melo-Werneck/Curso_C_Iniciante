@@ -10,30 +10,30 @@
 //Saída
 //Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using System.Globalization;
 
-namespace PrimeiroProjeto.Aula22
-{
-    internal class exemplo12
-    {
-        static void Main(string[] args)
-        {
-            int distancia, tempo, velocidade;
-            double litros;
+//namespace PrimeiroProjeto.Aula22
+//{
+//    internal class exemplo12
+//    {
+//        static void Main(string[] args)
+//        {
+//            int distancia, tempo, velocidade;
+//            double litros;
 
-            tempo = int.Parse(Console.ReadLine());
-            velocidade = int.Parse(Console.ReadLine());
+//            tempo = int.Parse(Console.ReadLine());
+//            velocidade = int.Parse(Console.ReadLine());
 
-            distancia = tempo * velocidade;
+//            distancia = tempo * velocidade;
 
-            litros = distancia / 12.0;
+//            litros = distancia / 12.0;
 
-            Console.WriteLine($"{litros.ToString("F3", CultureInfo.InvariantCulture)}");
-        }
-    }
-}
+//            Console.WriteLine($"{litros.ToString("F3", CultureInfo.InvariantCulture)}");
+//        }
+//    }
+//}
