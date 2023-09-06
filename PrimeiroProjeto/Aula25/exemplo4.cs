@@ -9,36 +9,36 @@
 //Saída
 //Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using System.Globalization;
 
-namespace PrimeiroProjeto.Aula25
-{
-    internal class exemplo4
-    {
-        static void Main(string[] args)
-        {
-            double x1, y1, x2, y2, distancia;
+//namespace PrimeiroProjeto.Aula25
+//{
+//    internal class exemplo4
+//    {
+//        static void Main(string[] args)
+//        {
+//            double x1, y1, x2, y2, distancia;
 
-            string[] valores = Console.ReadLine().Split(' ');
+//            string[] valores = Console.ReadLine().Split(' ');
             
-            x1 = double.Parse(valores[0], CultureInfo.InvariantCulture);
-            y1 = double.Parse(valores[1], CultureInfo.InvariantCulture);
+//            x1 = double.Parse(valores[0], CultureInfo.InvariantCulture);
+//            y1 = double.Parse(valores[1], CultureInfo.InvariantCulture);
 
-            valores = Console.ReadLine().Split(' '); 
+//            valores = Console.ReadLine().Split(' '); 
 
-            x2 = double.Parse(valores[0], CultureInfo.InvariantCulture);
-            y2 = double.Parse(valores[1], CultureInfo.InvariantCulture);
-            distancia = Math.Sqrt(Math.Pow(x2 - x1, 2.0) + Math.Pow(y2 - y1, 2.0));
+//            x2 = double.Parse(valores[0], CultureInfo.InvariantCulture);
+//            y2 = double.Parse(valores[1], CultureInfo.InvariantCulture);
+//            distancia = Math.Sqrt(Math.Pow(x2 - x1, 2.0) + Math.Pow(y2 - y1, 2.0));
 
-            Console.WriteLine(distancia.ToString("f4", CultureInfo.InvariantCulture));
+//            Console.WriteLine(distancia.ToString("f4", CultureInfo.InvariantCulture));
 
 
-        }
+//        }
 
-    }
-}
+//    }
+//}
